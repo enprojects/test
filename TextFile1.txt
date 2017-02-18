@@ -1,0 +1,6 @@
+1. This create strating point --> *Enable-Migrations  *
+2. Take the changes after dto has changed    -->  * add-migration 'SomeName' *
+3. Changee db * Update-Database -TargetMigration: $InitialDatabase or 'some name' * (Create automatically)
+4.  *Update-Database -Script *  generate script for all changes
+l
+5. In case migration on existing db  add-migration Initial ,  will create .cs migartion file 
