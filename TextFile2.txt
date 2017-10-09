@@ -2,3 +2,5 @@ checkout is tomove branchs and to restore
 amend command 
 git add  "*.txt" add to stage , thrn commited file 
 git commit ".txt" record changes to repository
+
+test
